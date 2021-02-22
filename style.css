@@ -1,0 +1,222 @@
+@font-face {
+    font-family: "Bebas Neue Regular";
+    src: url(sansation_light.woff);
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+div {
+    box-sizing: border-box;
+}
+.logo{
+    margin-left: 143px;
+    margin-top: 150px;
+}
+.header-1 ul{
+    list-style-type: none;
+}
+.header-1 li{
+    display: inline-block;
+}
+.header-top{
+    width: 2354px;
+    margin: auto;
+}
+.header{
+    width: 2480px;
+    height: 3508px;
+    background-color: #f3bd52;
+    margin: auto;
+}
+.goodtime{
+    margin-top: 127px;
+    margin-left: 43px;
+    width: 680px;
+    height: 32px;
+}
+.goodtime p{
+    color: #3d2514;
+    font-family: "Bebas Neue Regular";
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 61.18px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "It is a go" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.themain{
+    width: 2000px;
+}
+.header-content{
+    float:left;
+    width: 1150px;
+
+}
+.header-content h1{
+    text-shadow: 7px 8px 0 #fee8bc;
+    color: #3d2514;
+    font-family: "Alfa Slab One";
+    font-size: 213px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 115.02px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "Burger" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 75px;
+    margin-bottom: 49px;
+}
+.header-content h2{
+    text-shadow: 7px 8px 0 #fee8bc;
+    color: #3d2514;
+    font-family: "Alfa Slab One";
+    font-size: 105px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 115.02px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "Week" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.handburger{
+    margin-top: 87px;
+    width: 1325px;  
+    height: 964px;
+}
+.header-content2{
+    float:right;
+    width:835px;
+    position: relative;
+    display: flex;
+}
+.header-content2 h2{
+    margin-left: 355px;
+    text-shadow: 7px 8px 0 #fee8bc;
+    color: #3d2514;
+    font-family: "Alfa Slab One";
+    font-size: 92px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 104.17px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "Drinks" */
+    font-style: normal;
+    letter-spacing: 14.67px;
+    line-height: normal;
+}
+.header-content2 h5{
+    font-family: 'Noto Serif TC', serif;
+    margin-top: 89px;
+    margin-left: 355px;
+    width: 450px;
+    height: 789px;
+    color: #3d2514;
+    
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    line-height: 108.33px;
+    text-align: left;
+    /* Text style for "Lorem ipsu" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    position: absolute;
+    left: 0;
+    
+}
+.header-content2 h6{
+    font-family: 'Noto Serif TC', serif;
+    height: 792px;
+    margin-top: 89px;
+    margin-left: 105px;
+    color: #3d2514;
+    
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    line-height: 108.33px;
+    text-align: left;
+    /* Text style for ".........." */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    position: absolute;
+    left: 20px;
+}
+
+themain2 {
+    width: 831px;
+    float: left;
+}
+themain2 h2{
+    text-shadow: 7px 8px 0 #fee8bc;
+    color: #3d2514;
+    font-family: "Alfa Slab One";
+    font-size: 92px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 104.17px;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "Burgers" */
+    font-style: normal;
+    letter-spacing: 14.67px;
+    line-height: normal;
+}
+themain23{
+    width: 831px;
+    display: flex;
+}
+themain23 h5{
+    color: #3d2514;
+    font-family: "Bebas Neue Regular";
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 108.33px;
+    text-align: left;
+    /* Text style for "Lorem ipsu" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    float: left;
+}
+themain23 h6{
+    color: #3d2514;
+    font-family: "Bebas Neue Regular";
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 108.33px;
+    text-align: left;
+    /* Text style for ".........." */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    float: right;
+}
